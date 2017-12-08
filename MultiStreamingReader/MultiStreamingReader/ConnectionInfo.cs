@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace MultiStreamingReader
 {
-    public partial class Form1 : Form
+    public partial class ConnectionInfo : Form
     {
-        public Form1()
+        public ConnectionInfo()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
